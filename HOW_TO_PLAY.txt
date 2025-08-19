@@ -1,0 +1,31 @@
+# Tic-Tac-Toe (Python, Text-Based)
+
+## How to Play
+
+- **Players:** 2 (Player X and Player O)
+- **Goal:** Be the first to get three of your marks in a row—vertically, horizontally, or diagonally.
+
+### Instructions:
+
+1. When the game starts, the board is empty. Player X starts.
+2. On your turn, enter the row and column numbers (each between 1 and 3) to place your symbol:
+   - Example: If you enter `row: 2` and `column: 3`, your symbol goes in the middle row, right column.
+3. If a square is already taken, the game will ask you to pick another spot.
+4. The game checks after every move for a win (three in a line) or a draw (all spots filled).
+5. The first player to get three of their marks in a row wins.
+6. If the board fills up and nobody wins, it's a draw.
+7. To play again, run the script from the start.
+
+### Sample Turn
+
+Player X's turn.
+Enter row (1-3): 2
+Enter column (1-3): 3
+
+
+- This puts X in the middle row, rightmost column.
+
+### Tips
+
+- The game is played in the terminal/console: follow the prompts!
+- 
